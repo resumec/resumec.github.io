@@ -1,0 +1,30 @@
+# site title
+title:resumec
+
+# user name or organization name
+user:resumec
+
+# issue repository
+repository:resumec.github.io
+
+# multi-author
+authors:resumec
+
+# token
+# token should be separated by '#'
+# example: 5#c31bffc137f44faf7efc4a84da827g7ca2cfeaa
+token:c#f69a82d57459f6337b135392861a016e3f17be0
+
+# posts per page
+perpage:10
+
+
+# advance config
+
+# organization repository (?)
+organization: false
+
+# post order
+# order by create time" or "update time"
+# 'UPDATED_AT' or 'CREATED_AT'
+order: 'UPDATED_AT'
