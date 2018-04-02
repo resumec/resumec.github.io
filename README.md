@@ -1,2 +1,2 @@
 # resumec.github.io
-A blog, still in process.
+A blog, waiting to be born.
