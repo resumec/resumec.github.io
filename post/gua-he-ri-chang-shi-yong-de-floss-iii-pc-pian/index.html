@@ -1,13 +1,20 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>适合日常使用的FLOSS III PC篇 | Gridea</title>
-<link rel="shortcut icon" href="https://resumec.github.io/favicon.ico?v=1638627330874">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    <meta charset="utf-8" >
+
+<title>适合日常使用的FLOSS III PC篇 | Resumec&#39;s Blog</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://resumec.github.io/favicon.ico?v=1638627753531">
 <link rel="stylesheet" href="https://resumec.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="适合日常使用的FLOSS III PC篇 | Gridea - Atom Feed" href="https://resumec.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
@@ -15,82 +22,81 @@
 之前一直在酷安发文来着，现在准备在另外的平台也发布一下。这已经是这个系列的第三篇了，前面的两篇是手机软件，以应用集的形式发布在酷安。
 （目前酷安还没有比较完善的网页版，看文需要用安卓客户端，后期我也会把应用集什么的搬运到Github来..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://resumec.github.io">
-  <img class="avatar" src="https://resumec.github.io/images/avatar.png?v=1638627330874" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://resumec.github.io">
+        <img src="https://resumec.github.io/images/avatar.png?v=1638627753531" class="site-logo">
+        <h1 class="site-title">Resumec&#39;s Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      Stop for a while, then Resume.
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://resumec.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              适合日常使用的FLOSS III PC篇
-            </h2>
-            <div class="post-info">
-              <span>
-                2018-09-04
-              </span>
-              <span>
-                7 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">适合日常使用的FLOSS III PC篇</h2>
+            <div class="post-date">2018-09-04</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <h3 id="序言">序言</h3>
+            <div class="post-content" v-pre>
+              <h3 id="序言">序言</h3>
 <p>之前一直在酷安发文来着，现在准备在另外的平台也发布一下。这已经是这个系列的第三篇了，前面的两篇是手机软件，以应用集的形式发布在酷安。<br>
 （目前酷安还没有比较完善的网页版，看文需要用安卓客户端，后期我也会把应用集什么的搬运到Github来，目前想看还是需要酷安：<a href="https://www.coolapk.com/album/5328896">第一篇在这里</a>，<a href="https://www.coolapk.com/album/5730551">第二篇在这里</a>）。<br>
 <img src="https://user-images.githubusercontent.com/17444822/45007461-6721fe80-b030-11e8-9ece-db3717c164ff.jpg" alt="lotsoffirefox" loading="lazy"></p>
@@ -143,89 +149,36 @@ DWG格式支持属于实验室功能，我用了用被卡崩了好几次，默�
 ———————————————</p>
 <p>头图来自于Pixabay</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#%E5%BA%8F%E8%A8%80">序言</a></li>
-<li><a href="#1-manjaro-linux">1. Manjaro Linux</a></li>
-<li><a href="#2-firefox">2. Firefox</a></li>
-<li><a href="#3-calibre">3. Calibre</a></li>
-<li><a href="#4-mpc-be">4. MPC-BE</a></li>
-<li><a href="#5-vlc">5. VLC</a></li>
-<li><a href="#6-audacious">6. Audacious</a></li>
-<li><a href="#7-qbittorrent">7. qBittorrent</a></li>
-<li><a href="#8-ss%E5%88%92%E6%8E%89">8. SS(划掉)</a></li>
-<li><a href="#9-7z">9. 7z</a></li>
-<li><a href="#10-librecad">10. LibreCAD</a></li>
-<li><a href="#11-process-hacker-2">11. Process Hacker 2</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
+            
+            
+
+            
+
+          </div>
+
         </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://resumec.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
+
+
+
   </body>
 </html>
