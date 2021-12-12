@@ -1,13 +1,20 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>机械师低端论文指难 | Resume - Blog</title>
-<link rel="shortcut icon" href="https://resumec.github.io/favicon.ico?v=1639231966157">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://resumec.github.io/favicon.ico?v=1639307680260">
 <link rel="stylesheet" href="https://resumec.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="机械师低端论文指难 | Resume - Blog - Atom Feed" href="https://resumec.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
@@ -16,82 +23,81 @@
 就分成三个部分来讲讲我写论文的神秘姿势好了
 ( ´ﾟωﾟ)。。。首先预警三连ᕙ(`▿..." />
     <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://resumec.github.io">
-  <img class="avatar" src="https://resumec.github.io/images/avatar.png?v=1639231966157" alt="">
-  </a>
-  <h1 class="site-title">
-    Resume - Blog
-  </h1>
-  <p class="site-description">
-    Stop for a while, then Resume.
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://resumec.github.io">
+        <img src="https://resumec.github.io/images/avatar.png?v=1639307680260" class="site-logo">
+        <h1 class="site-title">Resume - Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      Stop for a while, then Resume.
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://resumec.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              机械师低端论文指难
-            </h2>
-            <div class="post-info">
-              <span>
-                2019-01-26
-              </span>
-              <span>
-                9 min read
-              </span>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">机械师低端论文指难</h2>
+            <div class="post-date">2019-01-26</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>虽然毕业季其实已经过去了，高考都过了，可能有人已经旅游完毕准备上班了，然而我还是要讲讲怎么写论文，给大家的假期添堵！<br>
+            <div class="post-content" v-pre>
+              <p>虽然毕业季其实已经过去了，高考都过了，可能有人已经旅游完毕准备上班了，然而我还是要讲讲怎么写论文，给大家的假期添堵！<br>
 （哦，难道不是因为撸主有拖延症么？）</p>
 <p>就分成三个部分来讲讲我写论文的神秘姿势好了<br>
 ( ´ﾟωﾟ)。。。首先预警三连ᕙ(`▿´)ᕗ<br>
@@ -147,106 +153,45 @@ Google Scholar 有一段时间一直抽风，所以我后面用得比较多的�
 <p>神仙室友一枚<br>
 纯抱大腿用，无它。</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E7%AC%AC1%E9%83%A8%E5%88%86-%E6%A0%B8%E5%BF%83%E8%BD%AF%E4%BB%B6%E4%BD%BF%E7%94%A8%E9%A2%91%E7%8E%87-max">第1部分 核心软件，使用频率 MAX</a>
-<ul>
-<li><a href="#11-%E9%A6%96%E5%85%88%E6%88%91%E4%BB%AC%E8%A6%81%E6%89%93%E5%BC%80%E9%9F%B3%E4%B9%90%E8%BD%AF%E4%BB%B6%E6%89%BE%E4%B8%AA%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E5%88%97%E8%A1%A8%E7%82%B9%E5%87%BB%E6%92%AD%E6%94%BE-spotify-%E7%9C%9F%E9%A6%99%E5%95%8A">1.1 首先，我们要打开音乐软件，找个自己喜欢的列表，点击播放（ Spotify 真香啊。。）</a></li>
-<li><a href="#12-microsoft-office-noteexpress">1.2 Microsoft Office + NoteExpress</a>
-<ul>
-<li><a href="#121-word">1.2.1 Word</a></li>
-<li><a href="#122-ppt">1.2.2 PPT</a></li>
-<li><a href="#123-noteexpress">1.2.3 NoteExpress</a></li>
-</ul>
-</li>
-<li><a href="#13-%E5%9C%A8%E6%90%9E%E6%96%87%E7%8C%AE%E6%A3%80%E7%B4%A2%E7%9A%84%E6%97%B6%E5%80%99~">1.3 在搞文献检索的时候～</a></li>
-<li><a href="#14-%E5%88%B0%E4%BA%86%E8%A6%81%E6%89%93%E5%8D%B0%E8%AE%BA%E6%96%87%E7%9A%84%E6%97%B6%E5%80%99~-pdf">1.4 到了要打印论文的时候～ PDF</a></li>
-</ul>
-</li>
-<li><a href="#%E7%AC%AC2%E9%83%A8%E5%88%86-%E7%9C%9F%E6%98%AF%E4%BA%9B%E5%A5%BD%E7%94%A8%E7%9A%84%E5%B0%8F%E4%B8%9C%E8%A5%BF">第2部分 真是些好用的小东西</a>
-<ul>
-<li><a href="#21-kiwix">2.1 Kiwix</a></li>
-<li><a href="#22-grabcad">2.2 GrabCAD</a></li>
-<li><a href="#23-tencoder">2.3 TEncoder</a></li>
-<li><a href="#24-snipaste">2.4 Snipaste</a></li>
-<li><a href="#25-matlab">2.5 MATLAB</a></li>
-</ul>
-</li>
-<li><a href="#%E7%AC%AC3%E9%83%A8%E5%88%86-%E5%A4%96%E6%8C%82%E9%9A%8F%E7%BC%98%E8%8E%B7%E5%BE%97">第3部分 外挂，随缘获得</a></li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
-        </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://resumec.github.io/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
 
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://resumec.github.io/post/hello-gridea/">
-              <h3 class="post-title">
-                Hello Gridea
-              </h3>
-            </a>
+            
+
           </div>
-        
 
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://resumec.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
+
+
+
   </body>
 </html>

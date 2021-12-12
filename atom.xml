@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://resumec.github.io</id>
     <title>Resume - Blog</title>
-    <updated>2021-12-11T14:18:21.420Z</updated>
+    <updated>2021-12-12T11:14:47.179Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://resumec.github.io"/>
     <link rel="self" href="https://resumec.github.io/atom.xml"/>
@@ -17,10 +17,10 @@
         </link>
         <updated>2021-12-04T14:06:45.000Z</updated>
         <content type="html"><![CDATA[<ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9492259"><label class="task-list-item-label" for="task-item-9492259"> 换一个新头像</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7531295"><label class="task-list-item-label" for="task-item-7531295"> 写一个自我感觉良好的简介</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5927280"><label class="task-list-item-label" for="task-item-5927280"> 定义几个初始的博文标签</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7661626"><label class="task-list-item-label" for="task-item-7661626"> 写一些让博主自我感觉良好的博文</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2502246"><label class="task-list-item-label" for="task-item-2502246"> 换一个新头像</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8226056"><label class="task-list-item-label" for="task-item-8226056"> 写一个自我感觉良好的简介</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2779049"><label class="task-list-item-label" for="task-item-2779049"> 定义几个初始的博文标签</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4389375"><label class="task-list-item-label" for="task-item-4389375"> 写一些让博主自我感觉良好的博文</label></li>
 </ul>
 ]]></content>
     </entry>
