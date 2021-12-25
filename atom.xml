@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://resumec.github.io</id>
     <title>Resume - Blog</title>
-    <updated>2021-12-25T15:11:46.746Z</updated>
+    <updated>2021-12-25T15:13:38.046Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://resumec.github.io"/>
     <link rel="self" href="https://resumec.github.io/atom.xml"/>
@@ -72,10 +72,16 @@
         </link>
         <updated>2021-12-04T14:06:45.000Z</updated>
         <content type="html"><![CDATA[<ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-5348483"><label class="task-list-item-label" for="task-item-5348483"> 换一个新头像</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-92473"><label class="task-list-item-label" for="task-item-92473"> 写一个自我感觉良好的简介</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-146178"><label class="task-list-item-label" for="task-item-146178"> 定义几个初始的博文标签</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5910324"><label class="task-list-item-label" for="task-item-5910324"> 写一些让博主自我感觉良好的博文</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6739113"><label class="task-list-item-label" for="task-item-6739113"> 换一个新头像</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-6165930"><label class="task-list-item-label" for="task-item-6165930"> 写一个自我感觉良好的简介</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2112740"><label class="task-list-item-label" for="task-item-2112740"> 定义几个初始的博文标签</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-7432403"><label class="task-list-item-label" for="task-item-7432403"> 写一些让博主自我感觉良好的博文</label>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-9390429"><label class="task-list-item-label" for="task-item-9390429"> 推荐5个英文博客</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8705802"><label class="task-list-item-label" for="task-item-8705802"> 海豹同人文第二篇</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-754072"><label class="task-list-item-label" for="task-item-754072"> 歌词自娱自译</label></li>
+</ul>
+</li>
 </ul>
 ]]></content>
     </entry>
